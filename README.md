@@ -10,19 +10,19 @@ The work is organised into five distinct tasks (A–E), each focusing on a core 
 
 ## Task Summaries
 
-### Task A – Vulnerability Discovery and Remediation
+### Task A - Vulnerability Discovery and Remediation
 A deliberately vulnerable C program containing a buffer overflow flaw was created, exploited, and then securely refactored. The insecure function `gets()` was replaced with safer alternatives (`fgets()`), and input handling was improved.
 
-### Task B – Threat Modelling and SDLC
+### Task B - Threat Modelling and SDLC
 A STRIDE-based threat model was developed for a vulnerable Flask web application. Key threats such as SQL injection, XSS, authentication bypass, and privilege escalation were analysed and mapped to mitigation strategies.
 
-### Task C – Automated Security Testing (CI/CD)
+### Task C - Automated Security Testing (CI/CD)
 A CI/CD pipeline was implemented using GitHub Actions with Semgrep for static analysis. The pipeline automatically scans code for vulnerabilities such as insecure database queries, XSS risks, and misconfigurations.
 
-### Task D – Dynamic Analysis and Exploit Development
+### Task D - Dynamic Analysis and Exploit Development
 A penetration test was conducted using OWASP ZAP. SQL Injection and stored XSS vulnerabilities were manually exploited and validated. The report compares automated scanning results with manual exploitation findings.
 
-### Task E – Compliance and Supply Chain Security
+### Task E - Compliance and Supply Chain Security
 A containerised Flask application was analysed. A Software Bill of Materials (SBOM) was generated using Syft and scanned with Grype, identifying multiple CVEs. The task demonstrates alignment with the NIST SSDF framework.
 
 ---
