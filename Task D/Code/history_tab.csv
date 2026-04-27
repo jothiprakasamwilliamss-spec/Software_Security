@@ -1,0 +1,24 @@
+ID,Source,Req. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Body,Highest Alert,Note,Tags
+37,Proxy,Tue Apr 21 16:41:10 IST 2026,GET,http://127.0.0.1:5000/,502,Bad Gateway,3,4721,,false,
+96,Proxy,Tue Apr 21 16:42:41 IST 2026,GET,http://127.0.0.1:5000/,200,OK,288,943,Medium,false,
+99,Proxy,Tue Apr 21 16:42:42 IST 2026,GET,http://127.0.0.1:5000/static/css/style.css,200,OK,575,1551,Low,false,Password
+113,Proxy,Tue Apr 21 16:42:46 IST 2026,GET,http://127.0.0.1:5000/,200,OK,6,943,Medium,false,
+114,Proxy,Tue Apr 21 16:42:46 IST 2026,GET,http://127.0.0.1:5000/static/css/style.css,304,NOT MODIFIED,25,0,Low,false,
+117,Proxy,Tue Apr 21 16:43:36 IST 2026,GET,http://127.0.0.1:5000/login,200,OK,4,583,Medium,false,"Form, Password"
+118,Proxy,Tue Apr 21 16:43:36 IST 2026,GET,http://127.0.0.1:5000/static/css/style.css,304,NOT MODIFIED,6,0,Low,false,
+133,Proxy,Tue Apr 21 16:44:02 IST 2026,GET,http://127.0.0.1:5000/register,200,OK,66,607,Medium,false,"Form, Password"
+134,Proxy,Tue Apr 21 16:44:03 IST 2026,GET,http://127.0.0.1:5000/static/css/style.css,304,NOT MODIFIED,5,0,Low,false,
+172,Proxy,Tue Apr 21 16:46:45 IST 2026,GET,http://127.0.0.1:5000/login,200,OK,6,583,,false,"Form, Password"
+173,Proxy,Tue Apr 21 16:46:45 IST 2026,GET,http://127.0.0.1:5000/static/css/style.css,304,NOT MODIFIED,5,0,,false,
+178,Proxy,Tue Apr 21 16:46:49 IST 2026,POST,http://127.0.0.1:5000/login,302,FOUND,4,199,,false,SetCookie
+179,Proxy,Tue Apr 21 16:46:49 IST 2026,GET,http://127.0.0.1:5000/login,200,OK,8,583,,false,"Form, Password"
+182,Proxy,Tue Apr 21 16:46:49 IST 2026,GET,http://127.0.0.1:5000/static/css/style.css,304,NOT MODIFIED,5,0,,false,
+192,Manual,Tue Apr 21 16:49:07 IST 2026,POST,http://127.0.0.1:5000/login,302,FOUND,5,189,Low,false,SetCookie
+193,Manual,Tue Apr 21 16:49:07 IST 2026,GET,http://127.0.0.1:5000/,200,OK,11,952,,false,
+1456,Proxy,Tue Apr 21 16:52:10 IST 2026,POST,http://127.0.0.1:5000/login,302,FOUND,20,189,,false,SetCookie
+1457,Proxy,Tue Apr 21 16:52:10 IST 2026,GET,http://127.0.0.1:5000/,200,OK,8,952,,false,
+1460,Proxy,Tue Apr 21 16:52:10 IST 2026,GET,http://127.0.0.1:5000/static/css/style.css,304,NOT MODIFIED,4,0,,false,
+1461,Proxy,Tue Apr 21 16:52:33 IST 2026,GET,http://127.0.0.1:5000/product/1,200,OK,4,778,,false,"Form, Script"
+1464,Proxy,Tue Apr 21 16:52:38 IST 2026,GET,http://127.0.0.1:5000/product/2,200,OK,5,693,,false,Form
+1475,Proxy,Tue Apr 21 16:53:38 IST 2026,POST,http://127.0.0.1:5000/product/2,302,FOUND,134,207,Low,false,SetCookie
+1476,Proxy,Tue Apr 21 16:53:38 IST 2026,GET,http://127.0.0.1:5000/product/2,200,OK,13,785,,false,"Form, Script"

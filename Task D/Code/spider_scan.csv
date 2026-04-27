@@ -1,0 +1,15 @@
+Processed,Method,URI,Flags
+true,GET,http://127.0.0.1:5000,Seed
+true,GET,http://127.0.0.1:5000/robots.txt,Seed
+true,GET,http://127.0.0.1:5000/sitemap.xml,Seed
+true,GET,http://127.0.0.1:5000/,Seed
+true,GET,http://127.0.0.1:5000/login,Seed
+true,GET,http://127.0.0.1:5000/register,Seed
+true,GET,http://127.0.0.1:5000/static,Seed
+true,GET,http://127.0.0.1:5000/static/css,Seed
+true,GET,http://127.0.0.1:5000/static/css/style.css,Seed
+true,GET,http://127.0.0.1:5000/about,
+true,GET,http://127.0.0.1:5000/product/1,
+true,GET,http://127.0.0.1:5000/product/2,
+true,POST,http://127.0.0.1:5000/login,
+true,POST,http://127.0.0.1:5000/register,
