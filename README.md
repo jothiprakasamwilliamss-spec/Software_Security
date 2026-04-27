@@ -4,7 +4,7 @@
 This repository contains an individual coursework portfolio for the module **Software Security (7021SCN)**.  
 It demonstrates practical and analytical skills in secure software development, vulnerability discovery, threat modelling, automated security testing, dynamic analysis, and software supply chain security.
 
-The work is organised into five distinct tasks (A–E), each focusing on a core area of secure software engineering aligned with OWASP and NIST SSDF principles.
+The work is organised into five distinct tasks (A-E), each focusing on a core area of secure software engineering aligned with OWASP and NIST SSDF principles.
 
 ---
 
